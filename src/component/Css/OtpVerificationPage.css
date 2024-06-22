@@ -1,0 +1,118 @@
+/* Center the form container with a gradient background */
+.otp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e 10%, #fad0c4 100%);
+  padding: 1rem;
+}
+
+/* Style the form */
+.otp-form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Add hover effect to the form */
+.otp-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Style the form heading */
+.otp-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style each form group */
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+/* Style the labels */
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Style the input fields */
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+/* Add focus effect to input fields */
+.form-group input:focus {
+  border-color: #ff7e67;
+  outline: none;
+}
+
+/* Style the submit button */
+.submit-button {
+  background-color: #ff7e67;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Add hover effect to submit button */
+.submit-button:hover {
+  background-color: #ff3d3d;
+  transform: translateY(-3px);
+}
+
+/* Style the resend button container */
+.resend-container {
+  margin-top: 1rem;
+}
+
+/* Style the resend button */
+.resend-button {
+  background-color: #ff7e67;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Add hover effect to resend button */
+.resend-button:hover {
+  background-color: #ff3d3d;
+  transform: translateY(-3px);
+}
+
+/* Style the email information */
+.email-info {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Hide email information when not visible */
+/* .email-info:not(.visible) {
+  display: none;
+} */
